@@ -4,13 +4,13 @@
 int main()
 {
     int n;
-    int suma;
+    int sum;
     printf("Podaj liczbe n: ");
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
-        suma=suma+(i*i);
+        sum=sum+(i*i);
     }
-    printf("\nsuma to: %d",suma);
+    printf("\nsuma to: %d",sum);
     return 0;
 }
