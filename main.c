@@ -3,14 +3,12 @@
 
 int main()
 {
-    float a,b,c;
-    printf("Podaj liczbe A ");
-    scanf("%f", &a);
-    printf("Podaj liczbe B ");
-    scanf("%f", &b);
-    printf("Podaj liczbe C ");
-    scanf("%f", &c);
-
-   printf("Odpowiedü wyrazenia c-((b-2*a)/(4+a)) to %f",c-((b-2*a)/(4+a)));
+    int n;
+    printf("Podaj liczbe n: ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d\n", i*i);
+    }
     return 0;
 }
