@@ -17,7 +17,7 @@ int wariant_404(unsigned int n)
 
 int main()
 {
-    int n=20;
+    int n=4;
     printf("Podana liczba %d zwraca wartosc %d\n", n, wariant_404(n));
     n+=1;
     printf("Podana liczba %d zwraca wartosc %d", n, wariant_404(n));
