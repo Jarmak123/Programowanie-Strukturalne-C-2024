@@ -18,6 +18,6 @@ int main()
     double x = 30;
     double y = 20;
     printf("Hello world!\n");
-    printf("Mniejsza wartosc z liczb x i y to: %f\n",find_min_pointed_numbers(&x,&y));
+    printf("Mniejsza wartosc z liczb x i y to: %lf\n",find_min_pointed_numbers(&x,&y));
     return 0;
 }
